@@ -26,7 +26,7 @@ export default defineConfig({
       }
     },
     commonjsOptions: {
-      include: [/node_modules/],
+      include: [/node_modules/, /packages\/web-sdk/],
     },
   },
 
