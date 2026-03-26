@@ -48,7 +48,7 @@
       `}
     `;
 
-    wonderCall = new WonderCall(settings.apiPublicKey);
+    wonderCall = new WonderCall(settings.apiPublicKey, 'https://api.wondercall.ai');
 
     wonderCall.on("call-start", () => {
       callStatus = 'active';
